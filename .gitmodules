@@ -1,3 +1,3 @@
-[submodule "uPySensors"]
-	path = uPySensors
+[submodule "uPyBikeNode/uPySensors"]
+	path = uPyBikeNode/uPySensors
 	url = https://github.com/lemariva/uPySensors.git
