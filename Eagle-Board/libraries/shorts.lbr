@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="9.2.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -97,6 +98,11 @@
 <rectangle x1="-0.254" y1="0.381" x2="0.254" y2="0.635" layer="16"/>
 <rectangle x1="-0.254" y1="-0.635" x2="0.254" y2="-0.381" layer="16"/>
 </package>
+<package name="SHORT_TOP-20">
+<smd name="1" x="0.381" y="0" dx="0.508" dy="0.508" layer="1" stop="no" cream="no"/>
+<smd name="2" x="-0.127" y="0" dx="0.508" dy="0.508" layer="1" stop="no" cream="no"/>
+<text x="-0.508" y="-0.762" size="0.3048" layer="25" ratio="16">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="SHORT-H">
@@ -133,6 +139,15 @@
 <technology name="">
 <attribute name="BOM" value="no"/>
 </technology>
+</technologies>
+</device>
+<device name="" package="SHORT_TOP-20">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>

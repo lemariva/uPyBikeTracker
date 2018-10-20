@@ -10,9 +10,14 @@
 |[BME280](https://www.banggood.com/CJMCU-280E-BME280-High-Precision-Atmospheric-Pressure-Sensor-For-Arduino-p-1103115.html?p=QW0903761303201409LG)| Atmospheric Pressure Sensor| x 1|
 |[BQ27510-G3](http://www.ti.com/product/bq27510-g3/description) | Fuel Gauge |x1|
 |[Lipo-Battery](https://www.banggood.com/ZOP-Power-3_7V-850mAh-1S-25C-Lipo-Battery-p-1013586.html?p=QW0903761303201409LG)| Battery| x1|
-|[RTC Clock](https://www.banggood.com/RobotDyn-RTC-Real-Time-Clock-DS1307-Module-Board-With-I2C-Bus-Interface-For-Arduino-p-1264021.html?p=QW0903761303201409LG)| Clock| x1 |
+|[RTC Clock](https://www.conrad.de/de/ds1339u-33-tr-rtc-clockcalendar-i2c-interface-msop8-800202661.html)| Clock| x1 |
+|[CR1220](https://www.conrad.de/de/knopfzellenhalter-1-cr-1216-cr-1220-horizontal-oberflaechenmontage-smd-l-x-b-x-h-1892-x-1207-x-318-mm-keystone-300-651317.html)| Battery Socket| x1 |
 |[SIL Socket Row Strip PCB Connector](https://www.banggood.com/5-Pair-40-Pin-2_54mm-Male-Female-SIL-Socket-Row-Strip-PCB-Connector-p-953486.html?p=QW0903761303201409LG)| SIL Socket Row Strip PCB Connector | x1|
 |[SMD Tact Push Buttons](https://www.banggood.com/100pcs-3-x-6-x-2_5mm-DC-12V-0_5A-SMD-Tact-Push-Button-Switch-p-1202259.html?p=QW0903761303201409LG)| Buttons| x4|
 
 ## More Info
 More info coming soon on [lemariva.com](https://lemariva.com).
+
+## Revision
+1.0 v initial commit 
+1.1 v added RTC Clock (DS1339)
