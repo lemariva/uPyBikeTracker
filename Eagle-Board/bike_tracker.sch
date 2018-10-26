@@ -25548,9 +25548,9 @@ of address</text>
 <attribute name="NAME" x="336.296" y="38.735" size="1.778" layer="95"/>
 <attribute name="VALUE" x="336.296" y="33.909" size="1.778" layer="96"/>
 </instance>
-<instance part="C7" gate="G$1" x="342.9" y="35.56" smashed="yes">
-<attribute name="NAME" x="344.424" y="38.481" size="1.778" layer="95"/>
-<attribute name="VALUE" x="344.424" y="33.401" size="1.778" layer="96"/>
+<instance part="C7" gate="G$1" x="342.9" y="38.1" smashed="yes" rot="R270">
+<attribute name="NAME" x="345.821" y="36.576" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="340.741" y="36.576" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="IPEX" gate="G$1" x="220.98" y="12.7" smashed="yes"/>
 <instance part="L1" gate="G$1" x="223.52" y="22.86" smashed="yes" rot="R180">
@@ -25982,7 +25982,8 @@ of address</text>
 <segment>
 <pinref part="J1" gate="G$1" pin="VDD"/>
 <pinref part="VDD2" gate="G$1" pin="VDD"/>
-<wire x1="60.96" y1="-38.1" x2="55.88" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="-38.1" x2="55.88" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="-38.1" x2="55.88" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="ESP32-LORA" gate="G$1" pin="3V3@3"/>
@@ -26050,7 +26051,6 @@ of address</text>
 <wire x1="335.28" y1="40.64" x2="335.28" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="335.28" y1="43.18" x2="342.9" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="342.9" y1="43.18" x2="337.82" y2="35.56" width="0.1524" layer="91"/>
 <junction x="335.28" y="43.18"/>
 <junction x="332.74" y="43.18"/>
 <pinref part="VDD12" gate="G$1" pin="VDD"/>
@@ -26624,7 +26624,7 @@ of address</text>
 <wire x1="335.28" y1="33.02" x2="335.28" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="335.28" y1="30.48" x2="342.9" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="342.9" y1="30.48" x2="347.98" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="342.9" y1="30.48" x2="342.9" y2="33.02" width="0.1524" layer="91"/>
 <label x="335.28" y="17.78" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
