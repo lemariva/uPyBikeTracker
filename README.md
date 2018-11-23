@@ -14,11 +14,13 @@
 |[CR1220](https://www.conrad.de/de/knopfzellenhalter-1-cr-1216-cr-1220-horizontal-oberflaechenmontage-smd-l-x-b-x-h-1892-x-1207-x-318-mm-keystone-300-651317.html)| Battery Socket| x1 |
 |[SIL Socket Row Strip PCB Connector](https://www.banggood.com/5-Pair-40-Pin-2_54mm-Male-Female-SIL-Socket-Row-Strip-PCB-Connector-p-953486.html?p=QW0903761303201409LG)| SIL Socket Row Strip PCB Connector | x1|
 |[SMD Tact Push Buttons](https://www.banggood.com/100pcs-3-x-6-x-2_5mm-DC-12V-0_5A-SMD-Tact-Push-Button-Switch-p-1202259.html?p=QW0903761303201409LG)| Buttons| x4|
+|[bq51013B](http://www.ti.com/product/BQ51013B/technicaldocuments)|  Highly Integrated Wireless Receiver Qi| x1|
 
 ## More Info
 More info coming soon on [lemariva.com](https://lemariva.com).
 
 ## Revision
+* 1.3v added wireless charging (not revised yet)
 * 1.2v breakout boards integrated to the main board
 * 1.1v added RTC Clock (DS1339)
 * 1.0v initial commit
